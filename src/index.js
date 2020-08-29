@@ -1,5 +1,7 @@
 const { sum, subtract, sumAsync, subtractAsync } = require('./math')
 
+const username = 'freddy'
+typeof username === 'strng'
 
 test('sum adds numbers', () => {
   const result = sum(3, 7)
