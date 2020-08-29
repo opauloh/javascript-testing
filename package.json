@@ -4,7 +4,8 @@
   "description": "The best way to learn about testing in Javascript, is to create my own assertion library, based on jest concepts",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/opauloh/javascript-testing#readme",
   "devDependencies": {
+    "eslint": "^7.7.0",
     "jest": "^26.4.2"
   }
 }
