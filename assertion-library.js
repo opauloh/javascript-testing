@@ -7,6 +7,16 @@ result = sum(3, 7)
 expected = 10;
 expect(result).toBe(expected)
 
+function test(title, callback) {
+  try {
+    callback()
+    console.log(`√ ${title}`)
+  } catch (error) {
+    console.log(`x ${title}`)
+    console.error(error)
+  }
+}
+
 function expect(actual) {
   return {
     toBe(expected) {
