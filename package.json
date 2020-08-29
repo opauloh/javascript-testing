@@ -1,0 +1,23 @@
+{
+  "name": "javascript-testing",
+  "version": "1.0.0",
+  "description": "The best way to learn about testing in Javascript, is to create my own assertion library, based on jest concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opauloh/javascript-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opauloh/javascript-testing/issues"
+  },
+  "homepage": "https://github.com/opauloh/javascript-testing#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
