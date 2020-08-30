@@ -6,7 +6,10 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
+    "prettier": "yarn prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "yarn prettier -- --write",
+    "check-format": "yarn prettier -- --list-different",
+    "validate": "yarn check-format && yarn lint && yarn build"
   },
   "repository": {
     "type": "git",
