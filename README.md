@@ -20,6 +20,7 @@ This library is for educatinal purposes, to learn about and understand how testi
   "eslint:recommended"
 ]
 ```
+- Its a good practice to ignore the same files on .gitignore (like node_modules, dist), then we can use this flag: eslint --ignore-path .gitignore, and eslint will ignore the pathes that are on .gitignore file
 
 ### fun facts
 rc suffix (like in .babelrc and .eslintrc) stands for "run commands", Thus, it would seem that the "rc" part stands for "runcom", which I believe can be expanded to "run commands". In fact, this is exactly what the file contains, commands that bash should run.
