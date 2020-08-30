@@ -4,6 +4,7 @@
   "description": "The best way to learn about testing in Javascript, is to create my own assertion library, based on jest concepts",
   "main": "index.js",
   "scripts": {
+    "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
     "test": "jest",
     "lint": "eslint --ignore-path .gitignore .",
     "check-types": "tsc",
