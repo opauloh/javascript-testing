@@ -43,6 +43,17 @@ testing works under Javascript world
   "extends": ["eslint:recommended", "eslint-config-prettier"]
 ```
 
+
+### lint-staged
+- In order to prevent our lint running always in all files in the project, we added lint-staged, this tool allow us to run our lint just in git staged files, before the commit
+
+### npm-run-all
+- In order to run all commands in parallel we can make of npm-run-all library (it works with yarn as well, also this can be used when we want to run multiple commands in Windows)
+
+### husky
+- If you have to always run a script before your commits (or other git hooks like push, pull), you can use husky to altomate this task for you, in this case was used to run a validate command
+
+
 ### fun facts
 
 rc suffix (like in .babelrc and .eslintrc) stands for "run commands", Thus, it
